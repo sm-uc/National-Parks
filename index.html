@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Parks of States
+    </title>
+    <link rel="stylesheet" type="text/css" href="index.css" >
+</head>
+<body>
+<h1>National Parks Of USA</h1>
+<form onsubmit='submit_handle()'>
+<span>Set maximum number Results:</span>
+<input type="text" value="10" />
+<p>Select one or more states from below options</p>
+<div id="states" class="states"></div>
+
+<input type="submit" value="Submit"/>
+</form>
+
+<section>
+<div id="park_info"></div>
+</section>
+
+<script src="state_code.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
